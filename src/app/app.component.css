@@ -1,0 +1,16 @@
+.nav-item.nav-link-username{
+    position: absolute;
+    right: 100px;
+}
+
+.nav-item.nav-link-login{
+    position: absolute;
+    right: 0%;
+}
+
+.navbar-nav{
+    background-color: lightslategrey;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}

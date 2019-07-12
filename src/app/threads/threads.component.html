@@ -1,0 +1,12 @@
+
+<div class="threads">
+  <ul class="alert alert-success" *ngFor="let thread of threads">
+      <li class="title"><b>Title:</b> {{thread.title}}</li>
+      <li class="description"><b>Description:</b> {{thread.description}}</li>
+      <li class="tags"><b>Tags:</b> {{thread.tags}}</li>
+      <li class="owner"><b>Onwer:</b> {{owner}}</li>
+      <li class="time"><b>Time:</b> {{thread.createdAt}}</li>
+  </ul>
+</div>
+
+<button class="button" [routerLink]="['/new-thread']" >+</button>
